@@ -35,11 +35,6 @@ def create_tiling_grid(low, high, bins=(10, 10), offsets=(0.0, 0.0)):
 
 
 
-low = [-1.0, -5.0]
-high = [1.0, 5.0]
-create_tiling_grid(low, high, bins=(10, 10), offsets=(-0.1, 0.5))  # [test]
-
-
 def create_tilings(low, high, tiling_specs):
     """Define multiple tilings using the provided specifications.
 
